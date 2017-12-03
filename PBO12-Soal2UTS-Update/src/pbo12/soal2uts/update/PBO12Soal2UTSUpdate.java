@@ -27,7 +27,7 @@ public class PBO12Soal2UTSUpdate {
            biaya ="750000";
        }else
            biaya ="1000000";
-   
+   //
        cek.setText(" No KTP :"+fr.getNoKtp()+
                "\n Nama : "+fr.getNama()+"\n Jenis Kelamin : "+fr.getJenkel()
                +"\n Handuk : "+fr.getHanduk()+ "\n Cabang : "+fr.getCabang()
