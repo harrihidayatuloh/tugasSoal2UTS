@@ -30,6 +30,12 @@ public class FormRegist {
         this.nama = nama;
     }
     
+public void setPaketFitnes ( String PaketFitnes){
+    this.PaketFitnes = PaketFitnes;
+}
+   public String getPaketFitnes(){
+    return PaketFitnes;
+} 
 
     
 }
