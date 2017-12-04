@@ -16,23 +16,6 @@ public class PBO12Soal2UTSUpdate {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        fr.setPaketFitnes(Paket.getSelectedValue().toString());
-        //System.out.print(fr.getPaketFitnes());
-       String biaya ;
-       if (Paket.getSelectedIndex()==0){
-           biaya ="450000";
-       }else if (Paket.getSelectedIndex()==1){
-           biaya ="300000";
-       }else if (Paket.getSelectedIndex()==2){
-           biaya ="750000";
-       }else
-           biaya ="1000000";
-   //
-       cek.setText(" No KTP :"+fr.getNoKtp()+
-               "\n Nama : "+fr.getNama()+"\n Jenis Kelamin : "+fr.getJenkel()
-               +"\n Handuk : "+fr.getHanduk()+ "\n Cabang : "+fr.getCabang()
-               +"\n Paket Fitnes : "+fr.getPaketFitnes()
-               +"\n Biaya : "+biaya
     }
     
 }
